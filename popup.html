@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NoMo Cache</title>
+    </head>
+    <body class="p-8 min-w-80 dark:bg-zinc-900">
+        <h2 class="text-2xl font-extrabold tracking-tighter text-slate-900 dark:text-zinc-100">NoMo Cache</h2>
+        <p class="text-slate-400 dark:text-zinc-400 tracking-tighter italic text-xs font-light">TIP: right-click the icon and choose 'setting' to change your preferences!</p>
+        <div class="grid grid-cols-1 gap-4 mt-8">
+            <button id="toggleEnabled" type="button" class="flex-none rounded-md bg-white dark:bg-white/10 px-2.5 py-1.5 text-sm font-semibold text-gray-900 dark:text-zinc-200 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-zinc-700 hover:bg-gray-50 dark:hover:bg-white/20">
+                disable extension
+            </button>
+            <button id="toggleWhitelist" type="button" class="flex-none rounded-md bg-white dark:bg-white/10 px-2.5 py-1.5 text-sm font-semibold text-gray-900 dark:text-zinc-200 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-zinc-700 hover:bg-gray-50 dark:hover:bg-white/20">
+                whitelist this site
+            </button>
+            <p class="text-slate-600 dark:text-zinc-400">NoMo is <span id="whitelistStatus" class="font-bold">enabled</span> for this website.</p>
+        </div>
+
+        <script src="js/tailwind-3.4.4.js"></script>
+        <script src="popup.js"></script>
+    </body>
+</html>

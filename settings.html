@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cache Clearer Settings</title>
+</head>
+<body class="dark:bg-zinc-900">
+    <div class="max-w-4xl mx-auto py-12 sm:px-6 lg:px-8">
+        <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-zinc-100 sm:text-7xl xl:max-w-[43.5rem]">NoMo Cache</h1>
+        <div class="grid grid-cols-1 gap-4 mt-12">
+            <div>
+                <h2 class="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-zinc-300">Whitelisted Websites</h2>
+                <p class="text-slate-400 dark:text-zinc-400 tracking-tighter italic text-xs font-light">Whitelisted websites will keep their cache.</p>
+
+                <div class="mt-8 flow-root">
+                    <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                        <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+                            <table id="whitelistTable" class="min-w-full divide-y divide-gray-300">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 dark:text-zinc-100 sm:pl-0">Site</th>
+                                        <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-0">
+                                            <span class="sr-only">Edit</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody id="whitelistBody" class="divide-y divide-gray-200"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-base font-semibold leading-7 text-slate-900 dark:text-zinc-300">Add Website</h2>
+                <div class="flex gap-4">
+                    <input type="text" id="newWebsiteInput" placeholder="Enter website URL" class="block w-full rounded-md border-0 py-1.5 px-3 dark:bg-white/5 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-white/10 dark:focus:ring-indigo-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                    <button id="addWebsiteButton" class="flex-none rounded-md bg-white dark:bg-white/10 px-2.5 py-1.5 text-sm font-semibold text-gray-900 dark:text-zinc-200 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-zinc-700 hover:bg-gray-50 dark:hover:bg-white/20">Add Website</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="text-center text-xs text-gray-400 dark:text-zinc-600">created by UNTITLED_PNG</p>
+
+    <script src="js/tailwind-3.4.4.js"></script>
+    <script src="settings.js"></script>
+    </body>
+</html>
