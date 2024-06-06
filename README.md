@@ -7,7 +7,7 @@ Chrome extension that disables cache for all websites with website whitelist sup
 # Features
 - Disable all cache
 - Whitelist websites to keep their cache
-- Light/ Dark mode for popup and settings.
+- Light/ Dark mode for popup and settings
 
 # More screenshots
 
