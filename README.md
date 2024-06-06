@@ -1,5 +1,6 @@
 # NoMo Cache
 Chrome extension that disables cache for all websites with website whitelist support.
+
 ![image](screenshots/NoMo-Cache-Screenshot1.png)
 > This popup will be shown when clicking the extension icon
 
